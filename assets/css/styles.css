@@ -1,6 +1,7 @@
 body {
-  background-color: #000;
-  overflow-x: hidden;
+  background: rgb(0,0,0);
+  background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(6,6,6,1) 100%);
+  overflow: hidden;
 }
 
 code {
@@ -8,7 +9,7 @@ code {
 }
 
 header.masthead {
-  background-image: initial;
+  background: inherit;
 }
 
 header.masthead .masthead-content, section {
@@ -99,4 +100,8 @@ header.masthead .masthead-content .masthead-subheading {
   .card-text, .card-subtitle {
     display: none;
   }
+}
+
+.pg-pips ul li a{
+  background:rgba(255, 255, 255, 0);
 }
